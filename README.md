@@ -1,55 +1,15 @@
-MATLAB Compiler
+ASET
 
-1. Prerequisites for Deployment 
+Acoustic Sediment Estimation Toolbox (ASET): A software package for calibrating and processing TRDI ADCP data to compute suspended-sediment transport in sandy rivers
 
-. Verify the MATLAB Runtime is installed and ensure you    
-  have installed version 9.0 (R2015b).   
+Dominguez Ruben L.G., Szupiany R.N., Latosinski F.G., López Weibel C., Wood, M., and Boldt, J.
 
-. If the MATLAB Runtime is not installed, do the following:
-  (1) enter
-  
-      >>mcrinstaller
-      
-      at MATLAB prompt. The MCRINSTALLER command displays the 
-      location of the MATLAB Runtime installer.
+Requisites
 
-  (2) run the MATLAB Runtime installer.
+1. Download or clone this repository
+2. Run ASET.m code in the Matlab command window
 
-Or download the Windows 64-bit version of the MATLAB Runtime for R2015b 
-from the MathWorks Web site by navigating to
-
-   http://www.mathworks.com/products/compiler/mcr/index.html
-   
-   
-For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
-Package and Distribute in the MATLAB Compiler documentation  
-in the MathWorks Documentation Center.    
-
-
-NOTE: You will need administrator rights to run MCRInstaller. 
-
-
-2. Files to Deploy and Package
-
-Files to package for Standalone 
-================================
--ASET.ctf (component technology file)
--ASET.exe
--MCRInstaller.exe 
-   -if end users are unable to download the MATLAB Runtime using the above  
-    link, include it when building your component by clicking 
-    the "Runtime downloaded from web" link in the Deployment Tool
--This readme file 
-
-3. Definitions
-
-For information on deployment terminology, go to 
-http://www.mathworks.com/help. Select MATLAB Compiler >   
-Getting Started > About Application Deployment > 
-Deployment Product Terms in the MathWorks Documentation 
-Center.
-
-
+For more information please go to https://asetoolbox.blogspot.com/
 
 
 
